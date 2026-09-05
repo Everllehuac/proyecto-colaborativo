@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Farmacia - Registro de Medicamentos</title>
+</head>
+<body>
+    <h1>Registro de Nuevos Medicamentos</h1>
+    <form>
+        <label for="codigo">Código del Medicamento:</label><br>
+        <input type="text" id="codigo" name="codigo" required><br><br>
+
+        <label for="nombre">Nombre Comercial / Genérico:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="laboratorio">Laboratorio:</label><br>
+        <input type="text" id="laboratorio" name="laboratorio"><br><br>
+
+        <label for="precio">Precio Unitario (S/.):</label><br>
+        <input type="number" id="precio" step="0.10" required><br><br>
+
+        <label for="stock">Cantidad Inicial en Stock:</label><br>
+        <input type="number" id="stock" required><br><br>
+
+        <button type="submit">Guardar Medicamento</button>
+    </form>
+</body>
+</html>
